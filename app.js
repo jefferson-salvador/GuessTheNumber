@@ -1,6 +1,6 @@
-var num1 = Math.floor(Math.random() * 10);
+let num1 = Math.floor(Math.random() * 10);
 const guessNum = () => {
-    var guess = document.getElementById("guess").value;
+    let guess = document.getElementById("guess").value;
     
     if(guess > num1){
         document.getElementById("result").innerHTML = `The number is lower than ${guess} <br> Try again`;
